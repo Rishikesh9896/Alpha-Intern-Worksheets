@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enhanced Webpage</title>
+</head>
+<body>
+    <h1><i>Welcome to My Webpage</i></h1>
+    <p>
+        <b>This is a <u>simple</u> webpage created using HTML.</b> Visit 
+        <a href="https://www.example.com" target="_blank" title="Example Website">Example Website</a> for more information.
+        <br>
+        <a href="path/to/your-image.jpg" download="example.jpg" title="Download Image">Download Image</a>
+    </p>
+    
+    <h2>Contact Information</h2>
+    <p>
+        <a href="mailto:contact@example.com">Contact Us</a>
+        <br>
+        <a href="tel:+1234567890">Call Us</a>
+    </p>
+
+    <h2>Media Section</h2>
+    <img src="path/to/your-image.jpg" alt="Sample Image" width="300">
+    <br>
+    <audio controls>
+        <source src="path/to/your-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <video width="320" height="240" controls>
+        <source src="path/to/your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Registration Form</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dob">DOB:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
